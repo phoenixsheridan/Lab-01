@@ -26,10 +26,10 @@ links_section()
 def education_section(education_data, course_data):
     st.header("Education")
     st.subheader(f"**{education_data['Institution']}**")
-    st.write(f"**Degree:**{education_data['Degree']}")
-    st.write(f"**Graduation Date:**{education_data['Graduation Date']}")
-    st.write(f"**GPA:**{education_data['GPA']}")
-    st.write("**Relevant Coursework:**")
+    st.markdown(f"**Degree:** {education_data['Degree']}")
+    st.markdown(f"**Graduation Date:** {education_data['Graduation Date']}")
+    st.markdown(f"**GPA:** {education_data['GPA']}")
+    st.markdown("**Relevant Coursework:**")
     coursework = pd.DataFrame(course_data)
     st.dataframe(coursework, column_config={
         "Code": "Course Code",
@@ -70,7 +70,7 @@ def skills_section(programming_data, spoken_data):
     for skill, percentage in programming_data.items():
         st.write(f"{skill}{info.programming_icons.get(skill,'')}")
         st.progress(percentage)
-        st.subheader("Spoken Languages")
+    st.subheader("Spoken Languages")
     for spoken, proficiency in spoken_data.items():
         st.write(f"{spoken} {info.spoken_icons.get(spoken, '')}: {proficiency}")
 
