@@ -18,7 +18,7 @@ course_data = {
     "skills":["Matrices are cooler than The Matrix!", "Even more variables that don't make sense than most math classes.", "I'm a math major, not an English major.", "Hopefully not as different as Proofs."]
     }
 experience_data = {
-    "Publix Deli Slicer":(["- Worked to provide excellent customer service to all, providing orders quickly, effectively, and kindly.",
+    "Publix Deli Slicer":(["- Worked hard to provide excellent customer service to all, providing orders quickly, effectively, and kindly.",
                                 "- Managed the team when absolutely necessary, directing operations to be more efficient and effective.", "- Ranked Highly on the bi-yearly peformance evaluation."],"images/Publix.png"),
     "Publix Meat Clerk":(["- After transfer from Deli, worked to provide even better customer servide than before.", "- As the main nightly cleaner, made made Meat Department borderline sterilized.",
                                 "- Increased morning customer visits due to higher cleanliness than before."],"images/meat.png")
